@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    
+    display: flex;
+    flex-direction: column;
+    /*The logo and the home about etc is spaced horizontally apart*/
+    
+    
+    /*For navbar to always remain on the top*/
+    position: sticky;
+    top: 0;
+
+    /*For minor 3d view of the navbar for it to always display on top*/
+    z-index: 1;
+    
+    /*The contents of the navbar have 1rem padding*/
+    
+ 
+}
+
+#navbar ul{
+    flex: 1;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+#navbar .logo{
+    flex: 1;
+    text-align: center;
+}
+
+#imgs-data-burger{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs-container-burger{
+    flex: 1;
+    
+}
+
+.text-container-burger
+{
+    display: none;
+}
+
+.about-text{
+    
+    max-width: 100%;
+    
+    
+}
+
+.about-text .showcase-h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.about-text .showcase-p{
+    font-size: 1rem;
+    padding: 0 1rem;
+    line-height: 1rem;
+}
+
+.gallery-container{
+    margin: 0rem 0rem;
+}
